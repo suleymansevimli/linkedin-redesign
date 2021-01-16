@@ -2,14 +2,14 @@ import React from "react";
 import Text from "../../components/Typography/Text";
 
 export default {
-    title: "Components/Typography",
+    title: "Components/Styles",
     component: Text
 }
 
 export const Typography = () => {
     return (
-        <div>
-            <Text tag={"h1"} size={38} className={"bold"} style={{textDecoration:"underline"}}>Typography</Text>
+        <div style={styles.container}>
+            <Text tag={"h1"} size={38} className={"bold"} style={{letterSpacing:"25px",marginBottom:50,marginTop: 50}}>Typography</Text>
 
             <Text tag={"p"} className={"bold"} size={20}> Linkedin Redesign </Text>
             <Text tag={"p"} className={"semi-bold"} size={20}> Linkedin Redesign </Text>
@@ -18,5 +18,14 @@ export const Typography = () => {
             <Text tag={"p"} className={"light"} size={20}> Linkedin Redesign </Text>
         </div>
     )
+}
+
+const styles = {
+    container : {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+    }
 }
 
