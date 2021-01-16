@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("./fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("./fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
 html,
 body {
   padding: 0;
@@ -14,3 +39,40 @@ a {
 * {
   box-sizing: border-box;
 }
+
+*:focus {
+    outline: none;
+}
+
+/* Typography */
+
+.semi-bold {
+    font-family: Poppins-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.bold {
+    font-family: Poppins-Bold;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.light {
+    font-family: Poppins-Light;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.medium {
+    font-family: Poppins-Medium;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.regular {
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 400;
+}
+
