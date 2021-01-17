@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "../../components/Typography/Text";
+import Text from "../../components/typography/Text";
 
 export default {
     title: "Components/Styles",

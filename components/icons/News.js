@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgIdCard(props) {
+function SvgNews(props) {
   return (
     <svg
       width="1em"
@@ -26,4 +26,4 @@ function SvgIdCard(props) {
   );
 }
 
-export default SvgIdCard;
+export default SvgNews;

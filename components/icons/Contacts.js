@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDirectory(props) {
+function SvgContacts(props) {
   return (
     <svg
       width="1em"
@@ -57,4 +57,4 @@ function SvgDirectory(props) {
   );
 }
 
-export default SvgDirectory;
+export default SvgContacts;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgTagUser(props) {
+function SvgTeammates(props) {
   return (
     <svg
       width="1em"
@@ -31,4 +31,4 @@ function SvgTagUser(props) {
   );
 }
 
-export default SvgTagUser;
+export default SvgTeammates;

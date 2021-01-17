@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Text from "../components/Typography/Text";
+import Text from "../components/typography/Text";
 
 export default function Home() {
   return (

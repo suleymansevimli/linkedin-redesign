@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgBell(props) {
+function SvgNotification(props) {
   return (
     <svg
       width="1em"
@@ -18,4 +18,4 @@ function SvgBell(props) {
   );
 }
 
-export default SvgBell;
+export default SvgNotification;

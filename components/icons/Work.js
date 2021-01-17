@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSquareDots(props) {
+function SvgWork(props) {
   return (
     <svg
       width="1em"
@@ -23,4 +23,4 @@ function SvgSquareDots(props) {
   );
 }
 
-export default SvgSquareDots;
+export default SvgWork;

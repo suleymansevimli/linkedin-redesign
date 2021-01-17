@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUser(props) {
+function SvgNetwork(props) {
   return (
     <svg
       width="1em"
@@ -26,4 +26,4 @@ function SvgUser(props) {
   );
 }
 
-export default SvgUser;
+export default SvgNetwork;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgRelated(props) {
+function SvgFollowing(props) {
   return (
     <svg
       width="1em"
@@ -31,4 +31,4 @@ function SvgRelated(props) {
   );
 }
 
-export default SvgRelated;
+export default SvgFollowing;

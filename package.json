@@ -8,7 +8,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#000=currentColor\""
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#000=currentColor\",\"#000000=currentColor\",\"#fff=currentColor\",\"#ffffff=currentColor\""
   },
   "dependencies": {
     "next": "10.0.5",

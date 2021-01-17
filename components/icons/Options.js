@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgDots(props) {
+function SvgOptions(props) {
   return (
     <svg
       width="1em"
@@ -17,4 +17,4 @@ function SvgDots(props) {
   );
 }
 
-export default SvgDots;
+export default SvgOptions;

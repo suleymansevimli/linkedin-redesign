@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgUsers(props) {
+function SvgConnections(props) {
   return (
     <svg
       width="1em"
@@ -25,7 +25,7 @@ function SvgUsers(props) {
       <path
         d="M11 43.046c0-2.069.368-3.555.93-4.654.553-1.085 1.353-1.907 2.405-2.57 2.366-1.49 6.258-2.332 11.931-2.332 5.658 0 9.84.835 12.476 2.397 1.192.706 2.076 1.562 2.676 2.644.605 1.088.993 2.531.993 4.515a4.5 4.5 0 009 0c0-6.847-2.968-11.872-8.081-14.902-4.722-2.798-10.862-3.654-17.064-3.654-6.187 0-12.177.85-16.73 3.718C4.584 31.33 2 36.398 2 43.046a4.5 4.5 0 109 0z"
         fill="currentColor"
-        stroke="#fff"
+        stroke="currentColor"
         strokeWidth={4}
         strokeLinecap="round"
       />
@@ -39,4 +39,4 @@ function SvgUsers(props) {
   );
 }
 
-export default SvgUsers;
+export default SvgConnections;

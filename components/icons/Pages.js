@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgPhone(props) {
+function SvgPages(props) {
   return (
     <svg
       width="1em"
@@ -23,4 +23,4 @@ function SvgPhone(props) {
   );
 }
 
-export default SvgPhone;
+export default SvgPages;

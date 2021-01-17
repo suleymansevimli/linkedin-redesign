@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSettings(props) {
+function SvgFilter(props) {
   return (
     <svg
       width="1em"
@@ -38,4 +38,4 @@ function SvgSettings(props) {
   );
 }
 
-export default SvgSettings;
+export default SvgFilter;

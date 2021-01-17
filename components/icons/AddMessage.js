@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgAddConnection(props) {
+function SvgAddMessage(props) {
   return (
     <svg
       width="1em"
@@ -27,4 +27,4 @@ function SvgAddConnection(props) {
   );
 }
 
-export default SvgAddConnection;
+export default SvgAddMessage;
