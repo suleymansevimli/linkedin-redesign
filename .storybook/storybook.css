@@ -8,5 +8,13 @@
         width: 40px;
         fill: var(--white);
     }
+}
 
+.badge-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--soft-gray);
+    align-items: center;
+    height: 60px;
 }

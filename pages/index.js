@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Text from "../components/typography/Text";
 
 export default function Home() {
   return (
@@ -14,8 +13,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
-        <Text tag={"p"} className={"semi-bold"} size={92} onClick={()=>alert("click")}> Hello world </Text>
 
         <p className={styles.description}>
           Get started by editing{' '}
