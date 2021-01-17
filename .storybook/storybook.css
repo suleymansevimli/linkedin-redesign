@@ -1,0 +1,12 @@
+.iconsContainer {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto auto auto;
+
+    svg {
+        height: 40px;
+        width: 40px;
+        fill: var(--white);
+    }
+
+}
