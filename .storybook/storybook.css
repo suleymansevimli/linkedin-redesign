@@ -26,3 +26,12 @@ body {
     height: 100%;
     padding-left: 10px
 }
+
+.connection-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    width: 250px;
+    background: var(--white);
+}

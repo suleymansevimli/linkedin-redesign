@@ -1,0 +1,26 @@
+.addCard {
+
+    .cardTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .title {
+            font-size: 22px;
+            line-height: 33px;
+        }
+
+        svg {
+            color: var(--soft-gray);
+        }
+    }
+
+    .connections {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+    }
+}

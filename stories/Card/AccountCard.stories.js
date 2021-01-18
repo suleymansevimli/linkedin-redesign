@@ -6,6 +6,17 @@ export default {
     component: Account
 }
 
-export const AccountCard = () => {
-    return <Account/>;
+export const AccountCard = (args) => {
+    return <Account {...args} />;
+}
+
+AccountCard.args = {
+    user : {
+        cover: "http://localhost:3000/img/cover.svg",
+        avatar: "http://localhost:3000/img/user/nick-rybak.png"
+    },
+    statics : {
+        viewedProfile : "205",
+        viewedLastPost: "9,767"
+    }
 }

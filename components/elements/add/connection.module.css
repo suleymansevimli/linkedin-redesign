@@ -1,0 +1,55 @@
+.connection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+        margin-left: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        .name {
+            font-size: 13px;
+            line-height: 19.5px;
+            width: 85%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .sector {
+            font-size: 11px;
+            line-height: 16.5px;
+            width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+    .plus {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end !important;
+
+        svg {
+            color: var(--soft-gray);
+            margin-right: 5px;
+        }
+    }
+}
