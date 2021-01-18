@@ -1,0 +1,39 @@
+.message {
+    cursor: pointer;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    img {
+        border-radius: 14px ;
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .name {
+            font-size: 13px;
+            line-height: 19px;
+        }
+
+        .lastMessage {
+            font-size: 11px;
+            line-height: 16px;
+            overflow: hidden;
+            width: 50%;
+            height: 20%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+}

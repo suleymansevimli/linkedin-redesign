@@ -1,9 +1,8 @@
 import React from "react";
 import cn from 'classnames';
-import PropTypes from 'prop-types'
 import style from "./add-card.module.css"
 import Card from "../Card";
-import {Info, Plus} from "../../icons";
+import {Info} from "../../icons";
 import Connection from "../../elements/add/Connection";
 
 const AddCard = () => {

@@ -25,7 +25,7 @@
 
         .name {
             font-size: 13px;
-            line-height: 19.5px;
+            line-height: 19px;
             width: 85%;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -34,7 +34,7 @@
 
         .sector {
             font-size: 11px;
-            line-height: 16.5px;
+            line-height: 16px;
             width: 90%;
             overflow: hidden;
             text-overflow: ellipsis;
