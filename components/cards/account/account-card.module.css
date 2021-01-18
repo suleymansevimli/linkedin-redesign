@@ -1,0 +1,86 @@
+.accountCard {
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .userInformation {
+        .cover {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+
+            img {
+                height: 90px;
+                width: 225px;
+                object-fit: contain;
+                border-radius: 20px;
+            }
+
+            .avatar {
+                margin-top: -45px;
+                align-items: center;
+                justify-content: center;
+                width: 90px;
+                height: 90px;
+                margin-bottom: 15px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 25px;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                font-size: 22px;
+                color: var(--black);
+                margin-bottom: 10px;
+            }
+
+            p {
+                text-align: center;
+                color: var(--gray);
+                font-size: 16px;
+            }
+        }
+    }
+
+    .statics {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        .staticsContent {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .title {
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            .count {
+                color: var(--blue);
+                font-size: 16px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

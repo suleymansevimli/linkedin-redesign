@@ -4,9 +4,9 @@ import style from "./menu.module.css"
 import PropTypes from 'prop-types';
 import Badge from "./badge/Badge";
 
-const Menu = ({icon, text, notify, active}) => {
+const Menu = ({icon, text, notify, active,className}) => {
     return (
-        <div className={cn([style.container, active ? style.active : ""])}>
+        <div className={cn([style.container, active ? style.active : "",className ? className :""])}>
             <div className={style.icon}>
                 {icon}
                 {notify && <div className={style.badge}>

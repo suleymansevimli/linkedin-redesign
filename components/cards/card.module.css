@@ -4,8 +4,4 @@
     background: var(--white);
     padding: var(--card-padding);
     width: var(--card-width);
-
-    div {
-        margin-bottom: 10px;
-    }
 }
