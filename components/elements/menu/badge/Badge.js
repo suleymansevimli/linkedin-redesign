@@ -5,7 +5,9 @@ import style from "./badge.module.css"
 const Badge = ({children}) => {
     return (
         <div className={style.badge}>
-            <p className={"bold"}>1</p>
+            <p className={"bold"}>
+                {children}
+            </p>
         </div>
     )
 }

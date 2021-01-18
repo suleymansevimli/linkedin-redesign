@@ -1,15 +1,15 @@
 .badge {
-    height: 18px;
-    width: 18px;
+    height: 21px;
+    width: 21px;
     border-radius: 50%;
     background: var(--blue);
     border: 3px solid var(--white);
-    display:flex;
+    padding: 5px;
+    display: flex;
     align-items: center;
-    padding: 5px 3px 4px 3px;
     justify-content: center;
 
-    p{
+    p {
         color: var(--white);
         font-size: 11px;
     }

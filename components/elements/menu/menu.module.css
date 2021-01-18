@@ -1,0 +1,66 @@
+.container {
+    cursor: pointer;
+    display: flex;
+    flex: 2;
+    align-items: center;
+
+    &:hover {
+        .icon {
+            color: var(--blue);
+        }
+        .text {
+            p {
+                color: var(--blue);
+            }
+        }
+    }
+
+    &.active {
+        .icon {
+            color: var(--blue);
+        }
+        .text {
+            p {
+                color: var(--blue);
+            }
+        }
+    }
+
+    .icon {
+        transition: 300ms color;
+        height: 40px;
+        width: 40px;
+        background: white;
+        color: var(--soft-gray);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        svg {
+            height: 30px;
+            width: 30px;
+        }
+
+        .badge {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 18px;
+            width: 18px;
+        }
+    }
+
+    .text {
+        p {
+
+            transition: 300ms color;
+            color: var(--soft-gray);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+        }
+    }
+}

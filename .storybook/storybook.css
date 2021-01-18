@@ -1,3 +1,7 @@
+body {
+    background: #E5E5E5;
+}
+
 .iconsContainer {
     display: grid;
     grid-gap: 30px;
@@ -14,7 +18,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--soft-gray);
     align-items: center;
     height: 60px;
+}
+
+.menu-container {
+    height: 100%;
+    padding-left: 10px
 }

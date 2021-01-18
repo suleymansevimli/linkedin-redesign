@@ -118,6 +118,7 @@ const styles = {
     },
 
     lightGray: {
+        border: "0.4px solid rgba(0,0,0,0.1)",
         backgroundColor: "var(--light-gray)",
         borderRadius: "20px",
         width: 250,
