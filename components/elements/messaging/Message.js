@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import style from "./message.module.css"
 import cn from "classnames";
 
-const Message = ({avatar,name,lastMessage}) => {
+const Message = ({avatar, name, lastMessage, onClick}) => {
     return (
-        <div className={style.message}>
+        <div className={style.message} onClick={() => onClick()}>
             <img src={avatar} alt=""/>
             <div className={style.information}>
                 <p className={cn([style.name, "medium"])}>{name}</p>
@@ -19,6 +19,7 @@ export default Message;
 
 Message.propTypes = {
     avatar: PropTypes.string,
-    name : PropTypes.string,
+    name: PropTypes.string,
     lastMessage: PropTypes.string,
+    onClick: PropTypes.func.isRequired
 }

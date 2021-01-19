@@ -22,17 +22,23 @@ const MessagingCard = () => {
 
                 <div className={style.messages}>
 
-                    <Message name={"Nick Rybak"}
-                             avatar={"http://localhost:3000/img/user/nick-rybak.png"}
-                             lastMessage={"Hi guys ! This is Linkedin redesign concept, enjoy !"}/>
+                    <Message
+                        onClick={() => alert("nick rybak")}
+                        name={"Nick Rybak"}
+                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        lastMessage={"Hi guys ! This is Linkedin redesign concept, enjoy !"}/>
 
-                    <Message name={"Jane Cooper"}
-                             avatar={"http://localhost:3000/img/user/jane-cooper.png"}
-                             lastMessage={"Tellus hac duis eleifend iaculis fames quam sed quam."}/>
+                    <Message
+                        onClick={() => alert("Jane Cooper")}
+                        name={"Jane Cooper"}
+                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        lastMessage={"Tellus hac duis eleifend iaculis fames quam sed quam."}/>
 
-                    <Message name={"Darrell Steward"}
-                             avatar={"http://localhost:3000/img/user/darrell-steward.png"}
-                             lastMessage={"Magna lorem nulla vitae habitasse elementum."}/>
+                    <Message
+                        onClick={() => alert("Darrell Steward")}
+                        name={"Darrell Steward"}
+                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        lastMessage={"Magna lorem nulla vitae habitasse elementum."}/>
 
                 </div>
             </div>
