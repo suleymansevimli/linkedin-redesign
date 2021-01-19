@@ -1,0 +1,116 @@
+.card {
+    padding: 0;
+    width: 191px;
+
+    .suggestionCard {
+        min-height: 235px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .userInformation {
+            margin-bottom: 30px;
+            .decline {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                right: 10px;
+                top: 10px;
+                background: var(--soft-gray);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 300ms background;
+                cursor: pointer;
+
+                svg {
+                    font-size: 10px;
+                    color: var(--gray);
+                }
+
+                &:hover {
+                    background: var(--white);
+                }
+            }
+
+            .cover {
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+
+                img {
+                    width: 191px;
+                    object-fit: contain;
+                    border-radius: 20px;
+                }
+
+                .avatar {
+                    margin-top: -25px;
+                    align-items: center;
+                    justify-content: center;
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 5px;
+
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 15px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    font-size: 14px;
+                    color: var(--black);
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    text-align: center;
+                    color: var(--gray);
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .connections {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--gray);
+                font-size: 9px;
+
+                svg {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .accept {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+
+            p {
+                cursor: pointer;
+                color: var(--blue);
+                font-size: 13px;
+            }
+        }
+    }
+}
