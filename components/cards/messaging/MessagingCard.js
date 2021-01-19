@@ -2,8 +2,9 @@ import React from "react";
 import cn from 'classnames'
 import style from "./messaging-card.module.css"
 import Card from "../Card";
-import {AddMessage, Options, Search} from "../../icons";
+import {AddMessage, Options} from "../../icons";
 import Message from "../../elements/messaging/Message";
+import Search from "../../elements/Search/Search";
 
 const MessagingCard = () => {
     return (
@@ -16,8 +17,7 @@ const MessagingCard = () => {
                 </div>
 
                 <div className={style.search}>
-                    <input type="text" placeholder={"Search Messaging"}/>
-                    <Search/>
+                    <Search placeholder={"Search in messages"}/>
                 </div>
 
                 <div className={style.messages}>

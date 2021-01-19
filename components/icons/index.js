@@ -1,5 +1,6 @@
 export { default as AddMessage } from './AddMessage'
 export { default as Apps } from './Apps'
+export { default as ArrowDown } from './ArrowDown'
 export { default as ArrowUp } from './ArrowUp'
 export { default as Attach } from './Attach'
 export { default as Close } from './Close'

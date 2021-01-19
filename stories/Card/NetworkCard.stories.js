@@ -1,5 +1,5 @@
 import React from "react";
-import Network from "../../components/cards/network/NetworkCard";
+import Network from "../../components/cards/network/NetworkMenu";
 
 export default {
     title: "Components/Cards",

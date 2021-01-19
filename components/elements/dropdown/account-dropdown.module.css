@@ -1,0 +1,53 @@
+.accountDropdown {
+    box-sizing: border-box;
+    position: relative;
+
+    .label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        *:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        img {
+            height: 44px;
+            width: 44px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        svg {
+            font-size: 10px;
+        }
+
+
+    }
+
+    .options {
+        background: var(--light-gray);
+        position: absolute;
+        padding: 5px;
+        top: 40px;
+        border-radius: 10px;
+        width: 150px;
+        right: -26px;
+
+        ul>li {
+            list-style: none;
+            padding: 15px;
+            transition: 300ms border-radius;
+
+            &:hover {
+                background: var(--extra-light-gray);
+                border-radius: 10px ;
+            }
+        }
+    }
+}
