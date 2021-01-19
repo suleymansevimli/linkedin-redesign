@@ -1,10 +1,11 @@
 import React from "react";
+import cn from 'classnames';
 import PropTypes from 'prop-types'
 import style from "./card.module.css"
 
-const Card = ({children}) => {
+const Card = ({children,classname}) => {
     return (
-        <div className={style.container}>
+        <div className={cn([classname ? classname : "",style.container])}>
             {children}
         </div>
     )

@@ -1,0 +1,34 @@
+.card {
+    width: 915px;
+}
+
+.newPost {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 3;
+
+    .input {
+        display: flex;
+        flex: 4;
+        textarea {
+            background: none;
+            border: none;
+            width: 100%;
+            font-family: Poppins-Regular;
+            resize: none;
+        }
+    }
+
+    .otherPostTypes {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+
+        svg {
+            color: var(--soft-gray);
+            font-size: 20px;
+        }
+    }
+}
