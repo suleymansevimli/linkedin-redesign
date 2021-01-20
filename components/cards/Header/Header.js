@@ -4,7 +4,7 @@ import style from "./header.module.css"
 import Card from "../Card";
 import {ArrowDown} from "../../icons";
 import AccountDropdown from "../../elements/dropdown/AccountDropdown";
-import Search from "../../elements/Search/Search";
+import Search from "../../elements/search/Search";
 
 const Header = () => {
 
@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
 
                 <div className={style.search}>
-                    <Search placeholder={"Global Search "}/>
+                    <Search placeholder={"Global search "}/>
                 </div>
 
                 <div className={style.account}>

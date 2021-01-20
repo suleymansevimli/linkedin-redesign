@@ -4,7 +4,7 @@ import style from "./messaging-card.module.css"
 import Card from "../Card";
 import {AddMessage, Options} from "../../icons";
 import Message from "../../elements/messaging/Message";
-import Search from "../../elements/Search/Search";
+import Search from "../../elements/search/Search";
 
 const MessagingCard = () => {
     return (
@@ -17,7 +17,7 @@ const MessagingCard = () => {
                 </div>
 
                 <div className={style.search}>
-                    <Search placeholder={"Search in messages"}/>
+                    <Search placeholder={"search in messages"}/>
                 </div>
 
                 <div className={style.messages}>

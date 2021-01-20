@@ -1,0 +1,28 @@
+.card {
+    width: 100%;
+
+    .requestCard {
+        .cardTitle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 30px;
+
+            .title {
+                font-size: 22px;
+                color: var(--black);
+            }
+
+            .manage {
+                font-size: 16px;
+                color: var(--blue);
+            }
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

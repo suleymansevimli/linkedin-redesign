@@ -1,8 +1,8 @@
 import React from "react";
-import SearchComp from "../../../components/elements/Search/Search";
+import SearchComp from "../../../components/elements/search/Search";
 
 export default {
-    title: "Components/Search",
+    title: "Components/search",
     component: SearchComp
 }
 
@@ -11,5 +11,5 @@ export const Search = (args) => {
 }
 
 Search.args = {
-    placeholder: "Search..."
+    placeholder: "search..."
 }

@@ -1,5 +1,6 @@
 .card {
     width: 100%;
+    padding: 23px 30px;
 
     .header {
         display: flex;
@@ -8,7 +9,6 @@
         align-items: center;
 
         .account {
-            //background-color: red;
             display: flex;
             flex: 1;
             align-items: center;
@@ -16,9 +16,7 @@
         }
 
         .logo {
-            //background: green;
             display: flex;
-            //justify-content: center;
             align-items: center;
             flex: 1;
         }
@@ -26,7 +24,6 @@
         .search {
             padding: 0;
             margin:0;
-            //background: blue;
             display: flex;
             flex: 1;
             align-items: center;
