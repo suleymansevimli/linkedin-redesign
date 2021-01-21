@@ -3,7 +3,7 @@ import cn from 'classnames'
 import style from "./messaging-card.module.css"
 import Card from "../Card";
 import {AddMessage, Options} from "../../icons";
-import Message from "../../elements/messaging/Message";
+import MessageCard from "../../elements/messaging/card/MessageCard";
 import Search from "../../elements/search/Search";
 
 const MessagingCard = () => {
@@ -22,19 +22,19 @@ const MessagingCard = () => {
 
                 <div className={style.messages}>
 
-                    <Message
+                    <MessageCard
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
                         avatar={"http://localhost:3000/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! This is Linkedin redesign concept, enjoy !"}/>
 
-                    <Message
+                    <MessageCard
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
                         avatar={"http://localhost:3000/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis eleifend iaculis fames quam sed quam."}/>
 
-                    <Message
+                    <MessageCard
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
                         avatar={"http://localhost:3000/img/user/darrell-steward.png"}
