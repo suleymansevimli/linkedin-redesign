@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderComp from "../../components/cards/Header/Header";
+import HeaderComp from "../../components/cards/header/Header";
 
 export default {
     title: "Components/Cards",

@@ -1,0 +1,117 @@
+.card {
+    width: 100%;
+
+    .notification {
+        display: flex;
+        flex-direction: column;
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .user {
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                    object-fit: cover;
+                }
+
+                .name {
+                    font-size: 20px;
+                    color: var(--soft-gray);
+                    margin-right: 5px;
+                    margin-left: 15px;
+                }
+
+                .action {
+                    margin-right: 20px;
+                    font-size: 20px;
+                }
+
+                .time {
+                    font-size: 16px;
+                }
+            }
+
+            .options {
+                svg {
+                    cursor: pointer;
+                    width: 22px;
+                    height: 4px;
+                    color: var(--soft-gray);
+                    transition: 300ms color;
+
+                    &:hover {
+                        color: var(--blue);
+                    }
+                }
+            }
+
+        }
+
+        .post {
+            padding: 20px;
+            border: 1px solid var(--light-gray);
+            border-radius: 10px 10px 0 0;
+
+            .postText {
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--gray)
+            }
+        }
+
+        .footer {
+            padding: 20px;
+            border: 1px solid var(--light-gray);
+            border-top: 0;
+            border-radius: 0 0 10px 10px;
+            background: var(--extra-light-gray);
+
+            .footerText {
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--black);
+            }
+        }
+
+        .reactions {
+            margin-top: 20px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            div {
+                cursor: pointer;
+
+                &:hover {
+                    p {
+                        color: var(--black);
+                    }
+                }
+
+                p {
+                    transition: 500ms color;
+                    color: var(--gray);
+                }
+            }
+
+            .dot {
+                margin: 0 10px;
+                display: flex;
+                align-self: center;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background: var(--gray);
+            }
+        }
+
+    }
+
+}
