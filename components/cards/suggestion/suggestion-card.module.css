@@ -1,7 +1,6 @@
 .card {
     width: 100%;
-
-    .requestCard {
+    .suggestionCard {
         .cardTitle {
             display: flex;
             align-items: center;
@@ -21,9 +20,13 @@
             }
         }
 
-        .content {
-            display: flex;
-            flex-direction: column;
+
+        .suggestions {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(191px,1fr));
+            grid-gap: 30px;
+            place-items: center;
         }
+
     }
 }

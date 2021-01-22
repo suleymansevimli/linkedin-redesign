@@ -1,5 +1,5 @@
 import React from "react";
-import Notification from "../../components/cards/notification/notification";
+import Notification from "../../components/cards/notification/Notification";
 
 export default {
     title: "Components/Cards",
