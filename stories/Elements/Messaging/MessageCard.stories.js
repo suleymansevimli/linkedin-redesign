@@ -1,5 +1,5 @@
 import React from "react";
-import MessageComp from "../../components/elements/messaging/card/MessageCard";
+import MessageComp from "../../../components/elements/messaging/card/MessageCard";
 
 export default {
     title: "Components/Messaging",

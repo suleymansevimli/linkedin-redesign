@@ -1,0 +1,93 @@
+.container {
+    max-width: 519px;
+
+    .forMe {
+        display: flex;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+
+        .avatar {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+
+            img {
+                border-radius: 7px;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .message {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .content {
+                background: var(--white);
+                padding: 20px 30px;
+                border-radius: 20px 20px 20px 0;
+                margin-bottom: 10px;
+            }
+
+            .dateTime {
+                p {
+                    font-size: 13px;
+                    color: var(--soft-gray);
+                }
+            }
+        }
+    }
+
+    .fromMe {
+        display: flex;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+
+        .avatar {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+            height: 40px;
+            width: 40px;
+            margin-left: 10px;
+
+            img {
+                border-radius: 7px;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .message {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .content {
+                background: rgba(10, 102, 194, 0.1);
+                padding: 20px 30px;
+                border-radius: 20px 20px 0 20px;
+                margin-bottom: 10px;
+            }
+
+            .dateTime {
+                p {
+                    font-size: 13px;
+                    color: var(--soft-gray);
+                }
+            }
+        }
+    }
+
+}
