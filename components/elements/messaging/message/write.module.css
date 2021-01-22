@@ -1,0 +1,55 @@
+.card {
+    width: 1170px;
+    border-radius: 0;
+    padding: 0 5px !important;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .write {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1;
+
+        .input {
+            border: none;
+            flex: 2;
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex: 1;
+
+            svg {
+                cursor: pointer;
+                font-size: 20px;
+                color: var(--soft-gray);
+                transition: 300ms color;
+
+                &:hover {
+                    color:var(--blue)
+                }
+            }
+        }
+
+        .button {
+            margin-left: 30px;
+            display: flex;
+            justify-content: flex-end;
+
+            .button {
+                margin:0 !important;
+                cursor: pointer;
+                border: none;
+                background: var(--blue);
+                padding: 10px 30px;
+                border-radius: 15px;
+                color: var(--white);
+            }
+        }
+    }
+}
