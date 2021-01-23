@@ -8,6 +8,7 @@ import Post from "../cards/post/Post";
 import NetworkCard from "../cards/network/NetworkMenu";
 import AddCard from "../cards/add/AddCard";
 import MessagingCard from "../cards/messaging/MessagingCard";
+import AdsCard from "../cards/advertisement/AdsCard";
 
 const Layout = () => {
     return (
@@ -29,6 +30,7 @@ const Layout = () => {
                 </div>
                 <div className={style.banner}>
                    <AddCard/>
+                   <AdsCard/>
                 </div>
                 <div className={style.message}>
                     <MessagingCard/>

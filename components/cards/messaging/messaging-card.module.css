@@ -5,7 +5,8 @@
 }
 
 .messagingCard {
-    overflow-y: auto ;
+    overflow-y: auto;
+
     .cardTitle {
         display: flex;
         align-items: center;

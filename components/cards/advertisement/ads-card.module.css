@@ -1,0 +1,35 @@
+.card {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 112px 68px;
+    text-align: center;
+
+
+    img {
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+        padding: 15px;
+        background: var(--extra-light-gray);
+        border-radius: 27px;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 25px;
+        margin: 15px 0px 10px 0px;
+    }
+
+    a {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--blue);
+    }
+}

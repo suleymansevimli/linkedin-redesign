@@ -18,6 +18,7 @@
         }
 
         .content {
+            margin-left: 30px;
             flex: 3;
             width: 100%;
             display: flex;
