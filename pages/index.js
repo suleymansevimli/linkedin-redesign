@@ -12,12 +12,12 @@ import AccountCard from "../components/cards/account/AccountCard";
 export default function Home() {
 
     const account = {
-        user : {
+        user: {
             cover: "http://localhost:3000/img/cover.svg",
             avatar: "http://localhost:3000/img/user/nick-rybak.png"
         },
-        statics : {
-            viewedProfile : "205",
+        statics: {
+            viewedProfile: "205",
             viewedLastPost: "9,767"
         }
     }
@@ -42,32 +42,49 @@ export default function Home() {
         }
     ]
 
-  return (
-    <Layout>
-        <div className={style.menu}>
-            <MenuCard/>
-            <div className={style.account}>
-                <AccountCard {...account}/>
-            </div>
-        </div>
-        <div className={style.content}>
-            <NewPost/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-        </div>
-        <div className={style.banner}>
-            <AddCard/>
-            <div className={style.ads}>
-                <AdsCard {...ads[1]}/>
-                <AdsCard {...ads[0]}/>
-            </div>
-        </div>
-        <div className={style.message}>
+    const Menu = () => {
+        return (
+            <>
+                <MenuCard/>
+                <div className={style.account}>
+                    <AccountCard {...account}/>
+                </div>
+            </>
+        )
+    }
+
+    const Content = () => {
+        return (
+            <>
+                <NewPost/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+            </>
+        )
+    }
+
+    const Banner = () => {
+        return (
+            <>
+                <AddCard/>
+                <div className={style.ads}>
+                    <AdsCard {...ads[1]}/>
+                    <AdsCard {...ads[0]}/>
+                </div>
+            </>
+        )
+    }
+
+    const Message = () => {
+        return (
             <MessagingCard/>
-        </div>
-    </Layout>
-  )
+        )
+    }
+
+    return (
+        <Layout message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
+    )
 }
