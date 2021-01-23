@@ -6,7 +6,7 @@ import Card from "../Card";
 
 const NetworkCard = () => {
     return (
-        <Card>
+        <Card classname={style.card}>
             <Menu className={style.item} icon={<Connections/>} text={"Connections"}/>
             <Menu className={style.item} icon={<Teammates/>} text={"Teammates"}/>
             <Menu className={style.item} icon={<Contacts/>} text={"Contacts"}/>

@@ -54,13 +54,12 @@
 
     .text {
         p {
-
             transition: 300ms color;
             color: var(--soft-gray);
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 10px;
+            margin-left: 10px !important;
         }
     }
 }

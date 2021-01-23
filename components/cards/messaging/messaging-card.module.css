@@ -1,4 +1,11 @@
+.card {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+}
+
 .messagingCard {
+    overflow-y: auto ;
     .cardTitle {
         display: flex;
         align-items: center;

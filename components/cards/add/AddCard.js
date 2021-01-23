@@ -7,7 +7,7 @@ import Connection from "../../elements/add/Connection";
 
 const AddCard = () => {
     return (
-        <Card>
+        <Card classname={style.card}>
             <div className={style.addCard}>
 
                 <div className={style.cardTitle}>

@@ -8,7 +8,7 @@ import Search from "../../elements/search/Search";
 
 const MessagingCard = () => {
     return (
-        <Card>
+        <Card classname={style.card}>
             <div className={style.messagingCard}>
                 <div className={style.cardTitle}>
                     <h3 className={cn([style.title, "semi-bold"])}>Messaging</h3>
@@ -35,6 +35,53 @@ const MessagingCard = () => {
                         name={"Jane Cooper"}
                         avatar={"http://localhost:3000/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
+
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("Darrell Steward")}
+                        name={"Darrell Steward"}
+                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        lastMessage={"Magna lorem nulla."}/>
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("nick rybak")}
+                        name={"Nick Rybak"}
+                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        lastMessage={"Hi guys ! "}/>
+
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("Jane Cooper")}
+                        name={"Jane Cooper"}
+                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        lastMessage={"Tellus hac duis ."}/>
+
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("Darrell Steward")}
+                        name={"Darrell Steward"}
+                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        lastMessage={"Magna lorem nulla."}/>
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("nick rybak")}
+                        name={"Nick Rybak"}
+                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        lastMessage={"Hi guys ! "}/>
+
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("Jane Cooper")}
+                        name={"Jane Cooper"}
+                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        lastMessage={"Tellus hac duis ."}/>
+
+                    <MessageCard
+                        time={"13:50"}
+                        onClick={() => alert("Darrell Steward")}
+                        name={"Darrell Steward"}
+                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        lastMessage={"Magna lorem nulla."}/>
 
                     <MessageCard
                         time={"13:50"}

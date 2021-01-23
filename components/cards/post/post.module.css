@@ -1,0 +1,166 @@
+.card {
+    margin: 30px 0;
+    width: 100%;
+
+    .cardHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .postInformation {
+            display: flex;
+
+            img {
+                width: 70px;
+                height: 70px;
+                object-fit: cover;
+            }
+
+            .information {
+                display: flex;
+                align-items: flex-start;
+
+                .nameAndSector {
+                    .ago {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        h3 {
+                            font-size: 20px;
+                            color: var(--black);
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            color: var(--soft-gray);
+                        }
+                    }
+
+
+                    p {
+                        font-size: 16px;
+                        color: var(--soft-gray);
+                    }
+                }
+
+
+            }
+
+
+        }
+
+        .options {
+            svg {
+                color: var(--soft-gray);
+                height: 4px;
+                width: 22px;
+            }
+        }
+
+    }
+
+    .post {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .text {
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--gray);
+            margin-bottom: 11px;
+        }
+
+        .seeMore {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            box-shadow: 1px -22px 40px 10px rgba(255, 255, 255, 0.8);
+            margin-bottom: 30px;
+
+            a.moreBtn {
+                color: var(--blue);
+            }
+        }
+
+        .images {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 30px;
+
+            img {
+                border-radius: 20px;
+                height: 50%;
+                width: 50%;
+                object-fit: cover;
+            }
+        }
+
+        .interaction {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .actions {
+                display: flex;
+                align-items: center;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    &:not(:last-child) {
+                        margin-right: 15px;
+                    }
+
+                    svg {
+                        cursor: pointer;
+                        height: 20px;
+                        width: 20px;
+                        color: var(--soft-gray);
+                        fill: var(--white);
+                        margin-right: 10px;
+                        transition: 500ms color, 500ms fill;
+
+                        &.active {
+                            color: var(--blue);
+                            fill: var(--blue);
+                        }
+
+                        &:hover {
+                            color: var(--gray);
+                            fill: var(--gray);
+                        }
+                    }
+
+                    .count {
+                        color: var(--blue);
+                    }
+                }
+            }
+
+            .viewed {
+                display: flex;
+                align-items: center;
+                svg {
+                    cursor: pointer;
+                    height: 20px;
+                    width: 20px;
+                    color: var(--soft-gray);
+                    fill: var(--white);
+                    margin-right: 10px;
+                    transition: 500ms color, 500ms fill;
+                }
+
+                .count {
+                    color: var(--blue);
+                }
+            }
+
+        }
+    }
+}

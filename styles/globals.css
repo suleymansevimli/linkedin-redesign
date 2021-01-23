@@ -25,10 +25,18 @@
 
 html,
 body {
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: var(--extra-light-gray);
+}
+
+#__next {
+    height: 100%;
+    width: 100%;
 }
 
 a {
@@ -76,5 +84,10 @@ a {
     font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
