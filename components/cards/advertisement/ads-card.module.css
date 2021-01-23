@@ -1,7 +1,4 @@
 .card {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 30px;
 
     width: 100%;
     display: flex;
@@ -10,6 +7,10 @@
     justify-content: center;
     padding: 112px 68px;
     text-align: center;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
 
 
     img {

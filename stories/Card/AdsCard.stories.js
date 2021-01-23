@@ -6,6 +6,15 @@ export default {
     component: AdsCardComp
 }
 
-export const AdsCard = () => {
-    return <AdsCardComp/>
+export const AdsCard = (args) => {
+    return <AdsCardComp {...args} />
+}
+
+AdsCard.args = {
+    logo : "http://localhost:3000/img/logo/linkedin-logo.png",
+    title: "See you at Linkedin",
+    link : {
+        url: "https://www.linkedin.com/in/suleymansevimli/",
+        label: "linkedin.com/in/suleymansevimli"
+    }
 }
