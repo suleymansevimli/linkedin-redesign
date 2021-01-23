@@ -1,6 +1,12 @@
 .menu {
     flex: 1;
     width: 100%;
+
+    .account {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 30px;
+    }
 }
 
 .content {

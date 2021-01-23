@@ -8,8 +8,20 @@ import AdsCard from "../components/cards/advertisement/AdsCard";
 import MessagingCard from "../components/cards/messaging/MessagingCard";
 import React from "react";
 import Layout from "../components/Layout/Layout";
+import AccountCard from "../components/cards/account/AccountCard";
 
 export default function Home() {
+
+    const account = {
+        user : {
+            cover: "http://localhost:3000/img/cover.svg",
+            avatar: "http://localhost:3000/img/user/nick-rybak.png"
+        },
+        statics : {
+            viewedProfile : "205",
+            viewedLastPost: "9,767"
+        }
+    }
 
     const ads = [
         {
@@ -35,7 +47,9 @@ export default function Home() {
     <Layout>
         <div className={style.menu}>
             <MenuCard/>
-            <NetworkCard/>
+            <div className={style.account}>
+                <AccountCard {...account}/>
+            </div>
         </div>
         <div className={style.content}>
             <NewPost/>

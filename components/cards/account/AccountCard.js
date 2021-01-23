@@ -6,7 +6,7 @@ import Card from "../Card";
 
 const AccountCard = ({user,statics}) => {
     return (
-        <Card>
+        <Card classname={style.card}>
             <div className={style.accountCard}>
 
                 <div className={style.userInformation}>
