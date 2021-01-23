@@ -34,12 +34,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background: var(--extra-light-gray);
-    width: 100%;
+    flex: 1;
 }
 
 #__next {
     flex: 1;
-    width: 100%;
 }
 
 a {
