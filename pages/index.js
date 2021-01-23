@@ -1,12 +1,11 @@
+import React from "react";
 import style from "../styles/Home.module.css";
 import MenuCard from "../components/cards/menu/MenuCard";
-import NetworkCard from "../components/cards/network/NetworkMenu";
 import NewPost from "../components/cards/post/new/NewPost";
 import Post from "../components/cards/post/Post";
 import AddCard from "../components/cards/add/AddCard";
 import AdsCard from "../components/cards/advertisement/AdsCard";
 import MessagingCard from "../components/cards/messaging/MessagingCard";
-import React from "react";
 import Layout from "../components/Layout/Layout";
 import AccountCard from "../components/cards/account/AccountCard";
 

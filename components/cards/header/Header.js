@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from 'prop-types'
 import style from "./header.module.css"
 import Card from "../Card";
-import {ArrowDown} from "../../icons";
 import AccountDropdown from "../../elements/dropdown/AccountDropdown";
 import Search from "../../elements/search/Search";
 
