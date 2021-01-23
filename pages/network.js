@@ -1,13 +1,8 @@
 import React from "react";
-import style from "../styles/Home.module.css";
 import MenuCard from "../components/cards/menu/MenuCard";
-import NewPost from "../components/cards/post/new/NewPost";
-import Post from "../components/cards/post/Post";
-import AddCard from "../components/cards/add/AddCard";
 import AdsCard from "../components/cards/advertisement/AdsCard";
 import MessagingCard from "../components/cards/messaging/MessagingCard";
 import Layout from "../components/Layout/Layout";
-import AccountCard from "../components/cards/account/AccountCard";
 import RequestCard from "../components/cards/network/request/RequestCard";
 import SuggestionCard from "../components/cards/suggestion/SuggestionCard";
 import NetworkCard from "../components/cards/network/NetworkMenu";
@@ -66,10 +61,8 @@ export default function Network() {
     const Banner = () => {
         return (
             <>
-                <div className={style.ads}>
-                    <AdsCard {...ads[0]}/>
-                    <AdsCard {...ads[1]}/>
-                </div>
+                <AdsCard {...ads[0]}/>
+                <AdsCard {...ads[1]}/>
             </>
         )
     }
