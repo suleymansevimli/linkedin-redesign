@@ -47,6 +47,7 @@
         }
 
         .ignore {
+            margin-right: 30px !important;
             color: var(--soft-gray);
             cursor: pointer;
         }

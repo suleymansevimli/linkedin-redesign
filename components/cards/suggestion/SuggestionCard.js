@@ -55,18 +55,6 @@ const SuggestionCardContainer = () => {
             cover: "http://localhost:3000/img/suggestion-cover.png",
             avatar: "http://localhost:3000/img/user/robert-fox.png",
             name: "Robert Fox"
-        },
-        {
-            job: "Software Engineer ",
-            cover: "http://localhost:3000/img/suggestion-cover.png",
-            avatar: "http://localhost:3000/img/user/jane-cooper.png",
-            name: "Jane Cooper"
-        },
-        {
-            job: "Software Engineer ",
-            cover: "http://localhost:3000/img/suggestion-cover.png",
-            avatar: "http://localhost:3000/img/user/vladimir.png",
-            name: "vladimir"
         }
     ]
 
@@ -110,15 +98,6 @@ const SuggestionCardContainer = () => {
                                     onDecline={() => alert("declined")}
                                     onAccept={() => alert("accepted")}/>
 
-                    <SuggestionCard user={users[6]}
-                                    connections={"Nick Rybak and 131 others"}
-                                    onDecline={() => alert("declined")}
-                                    onAccept={() => alert("accepted")}/>
-
-                    <SuggestionCard user={users[7]}
-                                    connections={"Nick Rybak and 131 others"}
-                                    onDecline={() => alert("declined")}
-                                    onAccept={() => alert("accepted")}/>
                 </div>
 
             </div>

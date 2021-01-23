@@ -1,8 +1,9 @@
 .layout {
     padding: 30px;
-    width: 100%;
+    width: inherit;
     height: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     flex-wrap: nowrap;
 
@@ -15,6 +16,7 @@
     }
 
     .area {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin: 30px 0;
