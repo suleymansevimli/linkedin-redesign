@@ -1,6 +1,6 @@
 .card {
     flex-wrap: inherit;
-    width: 100%;
+    width: 100% !important;
     padding: 23px 30px;
 
     .header {

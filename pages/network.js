@@ -9,17 +9,6 @@ import NetworkCard from "../components/cards/network/NetworkMenu";
 
 export default function Network() {
 
-    const account = {
-        user: {
-            cover: "http://localhost:3000/img/cover.svg",
-            avatar: "http://localhost:3000/img/user/nick-rybak.png"
-        },
-        statics: {
-            viewedProfile: "205",
-            viewedLastPost: "9,767"
-        }
-    }
-
     const ads = [
         {
             logo: "/img/logo/linkedin-logo.png",

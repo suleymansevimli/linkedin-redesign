@@ -1,6 +1,10 @@
 .card {
     width: 100%;
 
+    &:not(:first-child) {
+        margin-top: 30px;
+    }
+
     .notification {
         display: flex;
         flex-direction: column;
