@@ -32,13 +32,15 @@
     }
 
     .options {
-        background: var(--light-gray);
+        cursor: pointer;
+        background: rgba(233,242,250,0.9);
         position: absolute;
         padding: 5px;
         top: 40px;
         border-radius: 10px;
         width: 150px;
         right: -26px;
+        z-index: 111;
 
         ul>li {
             list-style: none;

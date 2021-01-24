@@ -8,7 +8,6 @@ import {useRouter} from "next/router";
 const MenuCard = () => {
 
     const router = useRouter();
-    console.log(router.pathname)
 
     return (
         <Card classname={style.card}>
