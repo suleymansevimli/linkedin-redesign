@@ -10,7 +10,7 @@ const AccountDropdown = () => {
     return (
         <div className={style.accountDropdown}>
             <div className={style.label} onClick={() => setShow(!showOptions)}>
-                <img src={"http://localhost:3000/img/user/nick-rybak.png"} alt={"Nick Rybak"}/>
+                <img src={process.env.DOMAIN+"/img/user/nick-rybak.png"} alt={"Nick Rybak"}/>
                 <p className={"regular"}>Nick Rybak</p>
                 <ArrowDown/>
             </div>

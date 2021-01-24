@@ -13,8 +13,8 @@ export default function Home() {
 
     const account = {
         user: {
-            cover: "http://localhost:3000/img/cover.svg",
-            avatar: "http://localhost:3000/img/user/nick-rybak.png"
+            cover: process.env.DOMAIN+"/img/cover.svg",
+            avatar: process.env.DOMAIN+"/img/user/nick-rybak.png"
         },
         statics: {
             viewedProfile: "205",

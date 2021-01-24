@@ -12,7 +12,7 @@ export const NotificationCard = (args) => {
 
 NotificationCard.args = {
     user: {
-        avatar: "http://localhost:3000/img/user/jane-cooper.png",
+        avatar: process.env.STORYBOOK_DOMAIN+"/img/user/jane-cooper.png",
         name: "Jane Cooper"
     },
     action: "liked your post",

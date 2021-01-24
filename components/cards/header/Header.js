@@ -12,7 +12,7 @@ const Header = () => {
             <div className={style.header}>
 
                 <div className={style.logo}>
-                    <img src={"http://localhost:3000/img/logo/linkedin-logo.png"} alt=""/>
+                    <img src={process.env.DOMAIN+"/img/logo/linkedin-logo.png"} alt=""/>
                 </div>
 
                 <div className={style.search}>

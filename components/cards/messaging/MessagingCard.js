@@ -26,68 +26,68 @@ const MessagingCard = ({className}) => {
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={"http://localhost:3000/img/user/nick-rybak.png"}
+                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={"http://localhost:3000/img/user/jane-cooper.png"}
+                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={"http://localhost:3000/img/user/darrell-steward.png"}
+                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
 
                 </div>

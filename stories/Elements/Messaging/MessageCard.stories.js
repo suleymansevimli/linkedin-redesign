@@ -12,7 +12,7 @@ export const Message = (args) => {
 
 Message.args = {
     onClick: () => alert("Nick Rybak"),
-    avatar: "http://localhost:3000/img/user/nick-rybak.png",
+    avatar: process.env.STORYBOOK_DOMAIN+"/img/user/nick-rybak.png",
     name: "Nick Rybak",
     lastMessage: "Hello guys this is Linkedin redesign concept, enjoy !"
 }

@@ -9,7 +9,7 @@ const RequestCard = () => {
     const users = [
         {
             user: {
-                avatar: "http://localhost:3000/img/user/vladimir.png",
+                avatar: process.env.DOMAIN+"/img/user/vladimir.png",
                 name: "Vladimir Lupinskiy",
                 job: "UI/UX designer - Celadon",
             },
@@ -19,7 +19,7 @@ const RequestCard = () => {
         },
         {
             user: {
-                avatar: "http://localhost:3000/img/user/jane-cooper.png",
+                avatar: process.env.DOMAIN+"/img/user/jane-cooper.png",
                 name: "Jane Cooper",
                 job: "SMM Manager - Fifty Five Agency",
             },

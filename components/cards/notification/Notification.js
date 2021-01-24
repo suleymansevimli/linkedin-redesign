@@ -47,7 +47,7 @@ export default NotificationCard;
 NotificationCard.propTypes = {
     user: PropTypes.object,
     action: PropTypes.string,
-    postContent: PropTypes.oneOf(["object", "node"]),
-    footer: PropTypes.oneOf(["string", "node"]),
+    postContent: PropTypes.oneOf([PropTypes.object, PropTypes.node]),
+    footer: PropTypes.oneOf([PropTypes.string, PropTypes.node]),
     reactions: PropTypes.object,
 }

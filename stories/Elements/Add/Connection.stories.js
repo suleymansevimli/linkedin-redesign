@@ -15,7 +15,7 @@ export const ConnectionElement = (args) => {
 }
 
 ConnectionElement.args = {
-    logo: "http://localhost:3000/img/user/logo-1.png",
+    logo: process.env.STORYBOOK_DOMAIN+"/img/user/logo-1.png",
     name: "App Service Agency",
     sector: "Company / IT",
     action: ()=>alert("add to feed")

@@ -11,7 +11,7 @@ export const AdsCard = (args) => {
 }
 
 AdsCard.args = {
-    logo : "http://localhost:3000/img/logo/linkedin-logo.png",
+    logo : process.env.STORYBOOK_DOMAIN+"/img/logo/linkedin-logo.png",
     title: "See you at Linkedin",
     link : {
         url: "https://www.linkedin.com/in/suleymansevimli/",

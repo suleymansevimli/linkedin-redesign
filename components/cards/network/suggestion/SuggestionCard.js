@@ -44,5 +44,5 @@ SuggestionCard.propTypes = {
     user: PropTypes.object,
     onAccept: PropTypes.func.isRequired,
     onDecline: PropTypes.func.isRequired,
-    connections: PropTypes.oneOf(["string","node"])
+    connections: PropTypes.oneOfType([PropTypes.string,PropTypes.node])
 }

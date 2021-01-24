@@ -10,7 +10,7 @@ const Post = () => {
         <Card classname={style.card}>
             <div className={style.cardHeader}>
                 <div className={style.postInformation}>
-                    <img src={"http://localhost:3000/img/user/logo-1.png"} alt=""/>
+                    <img src={process.env.DOMAIN+"/img/user/logo-1.png"} alt=""/>
                     <div className={style.information}>
                         <div className={style.nameAndSector}>
                             <div className={style.ago}>
@@ -42,7 +42,7 @@ const Post = () => {
                 </div>
 
                 <div className={style.images}>
-                    <img src={"http://localhost:3000/img/post/post-1.png"} alt=""/>
+                    <img src={process.env.DOMAIN+"/img/post/post-1.png"} alt=""/>
                 </div>
 
                 <div className={style.interaction}>

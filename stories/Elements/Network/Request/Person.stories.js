@@ -16,7 +16,7 @@ export const Request = (args) => {
 
 Request.args = {
     user: {
-        avatar: "http://localhost:3000/img/user/vladimir.png",
+        avatar: process.env.STORYBOOK_DOMAIN+"/img/user/vladimir.png",
         name: "Vladimir Lupinskiy",
         job: "UI/UX designer - Celadon",
 

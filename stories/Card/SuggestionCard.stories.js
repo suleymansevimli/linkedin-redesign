@@ -12,8 +12,8 @@ export const SuggestionCard = (args) => {
 
 SuggestionCard.args = {
     user: {
-        cover: "http://localhost:3000/img/suggestion-cover.png",
-        avatar: "http://localhost:3000/img/user/jane-cooper.png",
+        cover: process.env.STORYBOOK_DOMAIN+"/img/suggestion-cover.png",
+        avatar: process.env.STORYBOOK_DOMAIN+"/img/user/jane-cooper.png",
         name: "Jane Cooper",
         job: "SMM Manager - Orion Soft"
     },
