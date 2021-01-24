@@ -6,7 +6,7 @@ import Card from "../Card";
 const AdsCard = ({logo,title,link}) => {
     return (
         <Card classname={style.card}>
-            <img src={logo} alt=""/>
+            <a target={"_blank"} href={link.url}><img src={logo} alt={title}/></a>
             <h3 className={"bold"}>{title}</h3>
             <a target={"_blank"} className={"regular"} href={link.url}>{link.label}</a>
         </Card>
