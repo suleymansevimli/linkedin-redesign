@@ -1,8 +1,15 @@
 .message {
     cursor: pointer;
-    margin-bottom: 23px;
+    margin-bottom: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
+    transition: 300ms background;
+
+
+    &:hover {
+        background: var(--extra-light-gray);
+    }
 
     &:last-child {
         margin-bottom: 0;
