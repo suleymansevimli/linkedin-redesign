@@ -64,3 +64,11 @@ const Layout = ({menu, content, banner, message,title}) => {
 }
 
 export default Layout;
+
+Layout.propTypes = {
+    menu : PropTypes.oneOfType([PropTypes.func,PropTypes.node]),
+    content : PropTypes.oneOfType([PropTypes.func,PropTypes.node]),
+    banner : PropTypes.oneOfType([PropTypes.func,PropTypes.node]),
+    message : PropTypes.oneOfType([PropTypes.func,PropTypes.node]),
+    title: PropTypes.string.isRequired
+}
