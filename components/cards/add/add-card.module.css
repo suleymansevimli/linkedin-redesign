@@ -17,7 +17,13 @@
         }
 
         svg {
+            cursor: pointer;
             color: var(--soft-gray);
+            transition: 300ms color;
+
+            &:hover {
+                color: var(--blue);
+            }
         }
     }
 

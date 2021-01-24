@@ -2,7 +2,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 24px;
+    transition: 300ms background;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--extra-light-gray);
+    }
 
     img {
         height: 50px;
@@ -50,6 +56,11 @@
         svg {
             color: var(--soft-gray);
             margin-right: 5px;
+            transition: 300ms color;
+
+            &:hover {
+                color: var(--blue);
+            }
         }
     }
 }
