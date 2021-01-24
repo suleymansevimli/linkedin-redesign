@@ -12,10 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-#
+
 ###Live demo : [CLICK FOR LIVE DEMO](https://localhost:3000)
 
-#
+
 ### Storybook
 If you want show the components how its work you can run this code ; 
 ```bash
