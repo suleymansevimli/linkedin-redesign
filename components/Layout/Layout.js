@@ -1,10 +1,11 @@
 import React from "react";
+import Head from 'next/head'
 import PropTypes from 'prop-types'
 import style from "./layout.module.css"
 import Header from "../cards/header/Header";
 
 
-const Layout = ({menu, content, banner, message}) => {
+const Layout = ({menu, content, banner, message,title}) => {
 
 
     const Menu = () => {
@@ -42,6 +43,10 @@ const Layout = ({menu, content, banner, message}) => {
 
     return (
         <div className={style.layout}>
+            <Head>
+                <title>{title}</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
 
             <div className={style.topBar}>
                 <Header/>

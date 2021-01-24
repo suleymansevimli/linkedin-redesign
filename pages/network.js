@@ -63,6 +63,6 @@ export default function Network() {
     }
 
     return (
-        <Layout message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
+        <Layout title={"Network | Linkedin Redesign"} message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
     )
 }

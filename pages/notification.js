@@ -109,7 +109,7 @@ const Notification = () => {
 
 
     return (
-        <Layout message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
+        <Layout title={"Notification | Linkedin Redesign"} message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
     )
 }
 

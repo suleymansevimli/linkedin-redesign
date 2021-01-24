@@ -85,6 +85,6 @@ export default function Home() {
     }
 
     return (
-        <Layout message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
+        <Layout title={"A new look for Linkedin !"} message={<Message/>} menu={<Menu/>} banner={<Banner/>} content={<Content/>}/>
     )
 }

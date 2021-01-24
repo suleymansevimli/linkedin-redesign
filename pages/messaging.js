@@ -93,7 +93,7 @@ const Messaging = () => {
 
 
     return (
-        <Layout menu={<Menu/>} content={<Content/>}/>
+        <Layout title={"Messaging | Linkedin Redesign"} menu={<Menu/>} content={<Content/>}/>
     )
 }
 
