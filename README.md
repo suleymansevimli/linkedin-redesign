@@ -17,7 +17,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 #
 ### Storybook
-If you show the components how its work you can run this code ; 
+If you want show the components how its work you can run this code ; 
 ```bash
 npm run storybook
 # or
