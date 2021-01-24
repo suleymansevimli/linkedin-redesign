@@ -30,6 +30,10 @@
                 color: var(--soft-gray);
                 transition: 300ms color;
 
+                &:not(:last-child) {
+                    margin-right: 15px;
+                }
+
                 &:hover {
                     color:var(--blue)
                 }
