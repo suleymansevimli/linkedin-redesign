@@ -6,9 +6,9 @@ import {AddMessage, Options} from "../../icons";
 import MessageCard from "../../elements/messaging/card/MessageCard";
 import Search from "../../elements/search/Search";
 
-const MessagingCard = () => {
+const MessagingCard = ({className}) => {
     return (
-        <Card classname={style.card}>
+        <Card classname={cn([style.card,className ? className : ""])}>
             <div className={style.messagingCard}>
                 <div className={style.cardTitle}>
                     <h3 className={cn([style.title, "semi-bold"])}>Messaging</h3>

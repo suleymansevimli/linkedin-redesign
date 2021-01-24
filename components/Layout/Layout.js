@@ -48,10 +48,10 @@ const Layout = ({menu, content, banner, message}) => {
             </div>
 
             <div className={style.area}>
-                <Menu/>
-                <Content/>
-                <Banner/>
-                <Message/>
+                {menu && <Menu/>}
+                {content && <Content/>}
+                {banner && <Banner/>}
+                {message && <Message/>}
             </div>
 
         </div>

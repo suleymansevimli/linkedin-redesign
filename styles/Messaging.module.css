@@ -1,0 +1,109 @@
+.content {
+    flex: 1;
+    display: flex;
+
+    .messageCard {
+        .card {
+            border-radius: 0;
+            border-right: 2px solid var(--light-gray);
+        }
+    }
+
+    .chat {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        background: var(--white);
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px;
+            border-bottom: 2px solid var(--light-gray);
+
+
+            .information {
+                display: flex;
+                align-items: flex-start;
+
+                img {
+                    border-radius: 14px;
+                    height: 60px;
+                    width: 60px;
+                    object-fit: cover;
+                }
+
+                .nameAndJob {
+                    margin-left: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+
+                    .name {
+                        display: flex;
+                        align-items: center;
+
+                        h4 {
+                            font-size: 22px;
+                            line-height: 33px;
+                            color: var(--black)
+                        }
+
+                        span {
+                            font-size: 16px;
+                            color: var(--soft-gray);
+                            margin: 0 15px;
+                        }
+
+                        .dot {
+                            height: 4px;
+                            width: 4px;
+                            border-radius: 50%;
+                            background: var(--soft-gray);
+                        }
+                    }
+
+                    .job {
+                        color: var(--black);
+                    }
+                }
+            }
+
+            .options {
+                svg {
+                    cursor: pointer;
+                    width: 22px;
+                    height: 4px;
+                    color: var(--soft-gray);
+                    transition: 300ms color;
+
+                    &:hover {
+                        color: var(--blue);
+                    }
+                }
+            }
+        }
+
+        .messagesArea {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+            flex: 1;
+
+            .write {
+                width: 100%;
+            }
+
+            .messages {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}

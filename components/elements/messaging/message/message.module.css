@@ -1,8 +1,13 @@
 .container {
-    max-width: 519px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
 
     .forMe {
         display: flex;
+        justify-content: flex-start;
+        margin: 30px ;
         width: 100%;
 
         &:not(:last-child) {
@@ -30,7 +35,8 @@
             justify-content: space-between;
 
             .content {
-                background: var(--white);
+                max-width: 519px;
+                background: var(--extra-light-gray);
                 padding: 20px 30px;
                 border-radius: 20px 20px 20px 0;
                 margin-bottom: 10px;
@@ -47,6 +53,8 @@
 
     .fromMe {
         display: flex;
+        justify-content: flex-end;
+        margin: 30px;
         width: 100%;
 
         &:not(:last-child) {
@@ -75,6 +83,7 @@
             align-items: flex-end;
 
             .content {
+                max-width: 519px;
                 background: rgba(10, 102, 194, 0.1);
                 padding: 20px 30px;
                 border-radius: 20px 20px 0 20px;

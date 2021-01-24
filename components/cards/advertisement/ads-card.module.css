@@ -1,5 +1,4 @@
 .card {
-
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,8 +7,8 @@
     padding: 112px 68px;
     text-align: center;
 
-    &:not(:last-child) {
-        margin-bottom: 30px;
+    &:not(:first-child) {
+        margin-top: 30px;
     }
 
 
