@@ -19,7 +19,7 @@ const MenuCard = () => {
 
             <Menu className={style.item}
                   icon={<Network/>} text={"Network"}
-                  notify={"1"}
+                  notify={"2"}
                   active={router.pathname === "/network"}
                   onClick={() => router.push("/network")}/>
 
