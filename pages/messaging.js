@@ -26,7 +26,7 @@ const Messaging = () => {
         {
             type: "fromMe",
             user: {
-                avatar: process.env.DOMAIN+"/img/user/nick-rybak.png"
+                avatar: "/img/user/nick-rybak.png"
             },
             content: "Duis proin eu sagittis fermentum eget pharetra libero augue dui. Suscipit volutpat fames tincidunt.",
             time: "5:10 AM"
@@ -34,7 +34,7 @@ const Messaging = () => {
         {
             type: "forMe",
             user: {
-                avatar: process.env.DOMAIN+"/img/user/jane-cooper.png"
+                avatar: "/img/user/jane-cooper.png"
             },
             content: "Duis proin eu sagittis fermentum eget pharetra libero augue dui. Suscipit volutpat fames tincidunt.",
             time: "5:10 AM"

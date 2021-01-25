@@ -17,11 +17,11 @@ const AddCard = () => {
 
                 <div className={style.connections}>
 
-                    <Connection name={"App Service Agency"} sector={"Company / IT"} logo={process.env.DOMAIN+"/img/user/logo-1.png"}/>
-                    <Connection name={"Robert Fox"} sector={"CEO at Good solutions"} logo={process.env.DOMAIN+"/img/user/robert-fox.png"}/>
-                    <Connection name={"Google Inc."} sector={"Company / IT"} logo={process.env.DOMAIN+"/img/user/logo-google.png"}/>
-                    <Connection name={"Guy Hawkings"} sector={"UX/UI designer at Sher"} logo={process.env.DOMAIN+"/img/user/guy-hawkings.png"}/>
-                    <Connection name={"Esther Howard"} sector={"Java tech lead at Sherless"} logo={process.env.DOMAIN+"/img/user/esther-howard.png"}/>
+                    <Connection name={"App Service Agency"} sector={"Company / IT"} logo={"/img/user/logo-1.png"}/>
+                    <Connection name={"Robert Fox"} sector={"CEO at Good solutions"} logo={"/img/user/robert-fox.png"}/>
+                    <Connection name={"Google Inc."} sector={"Company / IT"} logo={"/img/user/logo-google.png"}/>
+                    <Connection name={"Guy Hawkings"} sector={"UX/UI designer at Sher"} logo={"/img/user/guy-hawkings.png"}/>
+                    <Connection name={"Esther Howard"} sector={"Java tech lead at Sherless"} logo={"/img/user/esther-howard.png"}/>
 
                 </div>
             </div>

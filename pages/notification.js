@@ -39,7 +39,7 @@ const Notification = () => {
     const notifications = [
         {
             user: {
-                avatar: process.env.DOMAIN+"/img/user/jane-cooper.png",
+                avatar: "/img/user/jane-cooper.png",
                 name: "Jane Cooper"
             },
             action: "liked your post",
@@ -56,7 +56,7 @@ const Notification = () => {
         },
         {
             user: {
-                avatar: process.env.DOMAIN+"/img/user/jane-cooper.png",
+                avatar: "/img/user/jane-cooper.png",
                 name: "Jane Cooper"
             },
             action: "liked your post",

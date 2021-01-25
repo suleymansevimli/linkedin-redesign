@@ -26,68 +26,68 @@ const MessagingCard = ({className}) => {
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
+                        avatar={"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
+                        avatar={"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
+                        avatar={"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
+                        avatar={"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
+                        avatar={"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
+                        avatar={"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("nick rybak")}
                         name={"Nick Rybak"}
-                        avatar={process.env.DOMAIN+"/img/user/nick-rybak.png"}
+                        avatar={"/img/user/nick-rybak.png"}
                         lastMessage={"Hi guys ! "}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Jane Cooper")}
                         name={"Jane Cooper"}
-                        avatar={process.env.DOMAIN+"/img/user/jane-cooper.png"}
+                        avatar={"/img/user/jane-cooper.png"}
                         lastMessage={"Tellus hac duis ."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
+                        avatar={"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
 
                     <MessageCard
                         time={"13:50"}
                         onClick={() => alert("Darrell Steward")}
                         name={"Darrell Steward"}
-                        avatar={process.env.DOMAIN+"/img/user/darrell-steward.png"}
+                        avatar={"/img/user/darrell-steward.png"}
                         lastMessage={"Magna lorem nulla."}/>
 
                 </div>

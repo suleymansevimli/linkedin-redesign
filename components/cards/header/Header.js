@@ -15,7 +15,7 @@ const Header = () => {
             <div className={style.header}>
 
                 <div className={style.logo}>
-                    <img src={process.env.DOMAIN+"/img/logo/linkedin-logo.png"} alt="" onClick={()=>router.push("/")}/>
+                    <img src={"/img/logo/linkedin-logo.png"} alt="" onClick={()=>router.push("/")}/>
                 </div>
 
                 <div className={style.search}>
